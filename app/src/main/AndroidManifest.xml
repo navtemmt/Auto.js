@@ -41,14 +41,15 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 
     <application
-        android:name="org.autojs.autojs.App"
+        android:name="MyApp"
         android:allowBackup="false"
-        android:icon="@drawable/autojs_material"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
+        android:process="com.my.traffic.process"
         android:requestLegacyExternalStorage="true"
         tools:replace="android:label, android:icon, android:allowBackup"
         tools:targetApi="m">
